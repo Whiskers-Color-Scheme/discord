@@ -11,6 +11,7 @@
 </div>
 
 ## 😊 Thanks To
+
 This theme uses the [midnight](https://github.com/refact0r/midnight-discord) theme under the hood.
 
 ## 👷‍♂️ Install
@@ -24,56 +25,81 @@ This theme uses the [midnight](https://github.com/refact0r/midnight-discord) the
 
   🍌 Banana
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/banana.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/banana.css')
+  ```
 
   🍒 Cherry
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/cherry.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/cherry.css')
+  ```
 
   🫐 Blueberry
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/blueberry.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/blueberry.css')
+  ```
 
   🥝 Kiwi
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/kiwi.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/kiwi.css')
+  ```
 
   🍇 Grape
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/grape.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/grape.css')
+  ```
 
   🍊 Tangerine
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/tangerine.css')`
-    </details>
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/panther/tangerine.css')
+  ```
 
+    </details>
 
     <details open>
     <summary>🐯 Tiger</summary>
 
   🍌 Banana
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/banana.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/banana.css')
+  ```
 
   🍒 Cherry
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/cherry.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/cherry.css')
+  ```
 
   🫐 Blueberry
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/blueberry.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/blueberry.css')
+  ```
 
   🥝 Kiwi
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/kiwi.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/kiwi.css')
+  ```
 
   🍇 Grape
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/grape.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/grape.css')
+  ```
 
   🍊 Tangerine
 
-  `@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/tangerine.css')`
+  ```
+  @import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/tangerine.css')
+  ```
+
   </details>
 
 ## 💻 Maintainers
