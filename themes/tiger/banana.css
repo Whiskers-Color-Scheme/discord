@@ -1,0 +1,9 @@
+@import url("https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/themes/tiger/base.css");
+
+:root {
+  --accent-1: #a87b0a; /* links */
+  --accent-2: #a87b0a; /* general unread/mention elements */
+  --accent-3: #a87b0a; /* accent buttons */
+  --accent-4: #a87b0a; /* accent buttons when hovered */
+  --accent-5: #a87b0a; /* accent buttons when clicked */
+}

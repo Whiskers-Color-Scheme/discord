@@ -20,31 +20,27 @@
 	--corner-text: none;
 
 	/* color of status indicators and window controls */
-	--online-indicator: #B1E380; /* change to #23a55a for default green */
-	--dnd-indicator: #FF8C7C; /* change to #f13f43 for default red */
-	--idle-indicator: #FFE072; /* change to #f0b232 for default yellow */
-	--streaming-indicator: #FFAAF5; /* change to #593695 for default purple */
-
-	/* accent colors */
-	--mention: #210D00; /* mentions & mention messages */
-	--mention-hover: #301300; /* mentions & mention messages when hovered */
+	--online-indicator: #6A9534; /* change to #23a55a for default green */
+	--dnd-indicator: #B43A2A; /* change to #f13f43 for default red */
+	--idle-indicator: #A87B0A; /* change to #f0b232 for default yellow */
+	--streaming-indicator: #7D0E70; /* change to #593695 for default purple */
 
 	/* text colors */
-	--text-0: #000000; /* text on colored elements */
-	--text-1: #8A512B; /* bright text on colored elements */
-	--text-2: #FFEEE2; /* headings and important text */
-	--text-3: #FFEEE2; /* normal text */
-	--text-4: #FFEEE2; /* icon buttons and channels */
-	--text-5: #CFBBAD; /* muted channels/chats and timestamps */
+	--text-0: #3E1900; /* text on colored elements */
+	--text-1: #AE917C; /* bright text on colored elements */
+	--text-2: #3E1900; /* headings and important text */
+	--text-3: #3E1900; /* normal text */
+	--text-4: #3E1900; /* icon buttons and channels */
+	--text-5: #A17A5A; /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: #000000; /* dark buttons when clicked */
-	--bg-2: #000000; /* dark buttons */
-	--bg-3: #210D00; /* spacing, secondary elements */
-	--bg-4: #0E0600; /* main background color */
-	--hover: #210D00; /* channels and buttons when hovered */
-	--active: #210D00; /* channels and buttons when clicked or selected */
-	--message-hover: #1B0B00; /* messages when hovered */
+	--bg-1: #FFFCF8; /* dark buttons when clicked */
+	--bg-2: #FFFCF8; /* dark buttons */
+	--bg-3: #FFF3E2; /* spacing, secondary elements */
+	--bg-4: #FFF9F0; /* main background color */
+	--hover: #FFF3E2; /* channels and buttons when hovered */
+	--active: #FFF3E2; /* channels and buttons when clicked or selected */
+	--message-hover: #FFF5E7; /* messages when hovered */
 
 	/* amount of spacing and padding */
 	--spacing: 12px;
