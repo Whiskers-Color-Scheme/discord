@@ -10,7 +10,7 @@
 
 /* discsord chat icon */
 .childWrapper__01b9c:has(> svg:not(.favoriteIcon_adf80e)) {
-	background: url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/discord-icons/tiger/tangerine.svg');
+	background: url('https://github.com/Whiskers-Color-Scheme/discord/blob/main/discord-icons/tiger/tangerine.svg');
 	background-color: transparent !important;
 	background-size: cover;
 }
