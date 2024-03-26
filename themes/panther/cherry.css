@@ -1,0 +1,9 @@
+@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/themes/panther/base.css');
+
+:root{
+    --accent-1: #FF8C7C; /* links */
+	--accent-2: #FF8C7C; /* general unread/mention elements */
+	--accent-3: #FF8C7C; /* accent buttons */
+	--accent-4: #FF8C7C; /* accent buttons when hovered */
+	--accent-5: #FF8C7C; /* accent buttons when clicked */
+}
