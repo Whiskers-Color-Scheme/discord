@@ -27,7 +27,7 @@
 
 	/* text colors */
 	--text-0: #3E1900; /* text on colored elements */
-	--text-1: #3E1900; /* bright text on colored elements */
+	--text-1: #FFFCF8; /* bright text on colored elements */
 	--text-2: #3E1900; /* headings and important text */
 	--text-3: #3E1900; /* normal text */
 	--text-4: #3E1900; /* icon buttons and channels */
@@ -38,8 +38,8 @@
 	--bg-2: #FFFCF8; /* dark buttons */
 	--bg-3: #FFF3E2; /* spacing, secondary elements */
 	--bg-4: #FFF9F0; /* main background color */
-	--hover: #FFF9F0; /* channels and buttons when hovered */
-	--active: #FFF9F0; /* channels and buttons when clicked or selected */
+    --hover: #FFF3E2; /* channels and buttons when hovered */
+	--active: #FFF3E2; /* channels and buttons when clicked or selected */
 	--message-hover: #FFF5E7; /* messages when hovered */
 
 	/* amount of spacing and padding */
