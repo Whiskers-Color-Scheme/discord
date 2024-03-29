@@ -42,8 +42,8 @@
 	--bg-2: #000000; /* dark buttons */
 	--bg-3: #210D00; /* spacing, secondary elements */
 	--bg-4: #0E0600; /* main background color */
-	--hover: #0E0600; /* channels and buttons when hovered */
-	--active: #0E0600; /* channels and buttons when clicked or selected */
+	--hover: #301300; /* channels and buttons when hovered */
+	--active: #301300; /* channels and buttons when clicked or selected */
 	--message-hover: #1B0B00; /* messages when hovered */
 
 	/* amount of spacing and padding */
