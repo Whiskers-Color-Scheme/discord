@@ -9,7 +9,7 @@
 }
 
 /* discsord chat icon */
-.childWrapper_a6ce15:has(> svg:not(.favoriteIcon_adf80e)) {
+.childWrapper__760c6:has(> svg:not(.favoriteIcon_adf80e)) {
 	background: url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/discord-icons/panther/blueberry.svg');
 	background-color: transparent !important;
 	background-size: cover;

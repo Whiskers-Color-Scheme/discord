@@ -73,3 +73,9 @@
 	--green-to-accent-3-filter: none; /* add friend page explore icon */
 	--blurple-to-accent-3-filter: none; /* add friend page school icon */
 }
+
+
+/*DM Side Cards*/
+.overlayBackground__345c9{
+    background-color: #FFF9F0;
+}
