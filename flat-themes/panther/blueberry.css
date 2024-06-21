@@ -1,0 +1,5 @@
+@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/flat-themes/base.css');
+
+:root{
+    --accent-color: var(--wh-blueberry);
+}

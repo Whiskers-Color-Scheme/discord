@@ -1,0 +1,548 @@
+/*
+ * Website: https://github.com/Whiskers-Color-Scheme/discord
+*/
+
+
+:root {
+    /*Whiskers Colors*/
+    --wh-banana: #FFE072;
+    --wh-blueberry: #A5CEFF;
+    --wh-cherry: #FF8C7C;
+    --wh-grape: #FFAAF5;
+    --wh-kiwi: #B1E380;
+    --wh-tangerine: #FFB26C;
+    --wh-neutral: #000000;
+    --wh-neutral-two: #0E0600;
+    --wh-neutral-three: #140800;
+    --wh-neutral-four: #1B0B00;
+    --wh-neutral-five: #210D00;
+    --wh-neutral-six: #301300;
+    --wh-neutral-seven: #401A00;
+    --wh-neutral-eight: #502000;
+    --wh-text: #FFEEE2;
+    --wh-text-two: #E5D2C5;
+    --wh-text-three: #CFBBAD;
+    --wh-text-four: #B5A8A0;
+
+    /*Theme Colors*/
+    --accent-color: var(--wh-banana);
+    --on-accent-color: var(--wh-neutral);
+    --bg-color: var(--wh-neutral-two);
+    --sec-bg-color: var(--wh-neutral-four);
+    --sec-bg-color-hover: var(--wh-neutral-six);
+    --ter-bg-color: var(--wh-neutral-five);
+    --borders-color: var(--wh-neutral-six);
+    --fou-bg-color: var(--wh-neutral-eight);
+    --text-color: var(--wh-text);
+    --sec-text-color: var(--wh-text-two);
+    --ter-text-color: var(--wh-text-four);
+    --green-color: var(--wh-kiwi);
+    --red-color: var(--wh-cherry);
+    --yellow-color: var(--wh-banana);
+
+    /* ========================= Background Colors ========================== */
+    --background-accent: var(--accent-color);
+    --background-primary: var(--bg-color);
+    --background-secondary-alt: var(--ter-bg-color);
+    --background-secondary: var(--sec-bg-color);
+    --background-tertiary: var(--ter-bg-color);
+    --bg-overlay-chat: var(--bg-color);
+    --bg-overlay-hover: var(--fou-bg-color);
+    --bg-overlay-2: var(--sec-bg-color);
+    --primary-600: var(--bg-color);
+    --primary-800: var(--ter-bg-color);
+    --background-modifier-selected: var(--fou-bg-color);
+    --background-modifier-active: var(--fou-bg-color);
+    --background-modifier-hover: var(--fou-bg-color);
+    --input-background: var(--bg-color);
+    --deprecated-text-input-bg: var(--sec-bg-color);
+    --channeltextarea-background: var(--sec-bg-color);
+    --button-secondary-background: var(--fou-bg-color);
+    --button-secondary-background-hover: var(--ter-bg-color);
+    --button-secondary-background-active: var(--ter-bg-color);
+    --bg-mod-faint: var(--sec-bg-color);
+    --profile-gradient-overlay-color: var(--bg-color);
+    --profile-body-divider-color: var(--fou-bg-color);
+    --profile-body-background-color: var(--ter-bg-color);
+    --background-mentioned: var(--sec-bg-color);
+    --background-mentioned-hover: var(--ter-bg-color);
+    --background-message-highlight: var(--sec-bg-color);
+    --background-modifier-accent: var(--borders-color);
+    --background-floating: var(--fou-bg-color);
+    --theme-base-color: var(--bg-color);
+    --modal-background: var(--ter-bg-color);
+    --modal-footer-background: var(--ter-bg-color);
+    --search-popout-option-fade: transparent;
+    --search-popout-option-fade-hover: transparent;
+    --scrollbar-auto-track: transparent;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--fou-bg-color);
+    --scrollbar-thin-thumb: var(--fou-bg-color);
+    --profile-role-pill-background-color: var(--ter-bg-color);
+    --profile-note-background-color: var(--sec-bg-color);
+    --legacy-elevation-border: var(--borders-color);
+    --legacy-elevation-high: var(--borders-color);
+    --__header-bar-background: transparent;
+    --bg-mod-subtle: var(--ter-bg-color);
+    --chat-border: var(--borders-color);
+
+    /* ======================== Text Colors ================================ */
+    --interactive-normal: var(--sec-text-color);
+    --interactive-hover: var(--text-color);
+    --text-normal: var(--sec-text-color);
+    --text-positive: var(--green-color);
+    --text-link: var(--accent-color);
+    --white-500: var(--text-color);
+    --black-500: var(--text-color);
+    --channels-default: var(--sec-text-color);
+    --interactive-active: var(--text-color);
+    --channel-icon: var(--sec-text-color);
+    --interactive-muted: var(--ter-text-color);
+    --header-primary: var(--text-color);
+    --header-secondary: var(--sec-text-color);
+    --text-muted: var(--sec-text-color);
+    --channel-text-area-placeholder: var(--ter-text-color);
+    --mention-foreground: var(--on-accent-color);
+
+    /* ===================== Accent Colors ================================ */
+    --brand-160: var(--ter-bg-color);
+    --brand-400: var(--accent-color);
+    --brand-500: var(--accent-color);
+    --brand-530: var(--accent-color);
+    --brand-560: var(--accent-color);
+    --brand-600: var(--accent-color);
+    --text-brand: var(--accent-color);
+    --green-360: var(--green-color);
+    --yellow-360: var(--yellow-color);
+    --red-400: var(--red-color);
+    --control-brand-foreground: var(--accent-color);
+    --info-warning-foreground: var(--yellow-color);
+    --button-positive-background-disabled: var(--green-color);
+    --button-positive-background: var(--green-color);
+    --button-danger-background: var(--red-color);
+    --button-danger-background-disabled: var(--red-color);
+    --button-outline-danger-border: var(--red-color);
+    --button-outline-danger-background-hover: var(--red-color);
+    --button-outline-danger-border-hover: var(--red-color);
+    --button-outline-danger-text-hover: var(--on-accent-color);
+    --mention-background: var(--accent-color);
+}
+
+/*=========================== Background Colors ======================= */
+/*Pinned messages footer*/
+.footer_ac90a2,
+/*Emoji on top of context menu*/
+.button_a24e84,
+/*Emoji selector header*/
+.header_c6ee36,
+/*No emojis background*/
+.wrapper_e78f9e,
+/*Play Video Icon*/
+.icon_b26897,
+/*Browse Channels Header*/
+.theme-dark .themed_e44302,
+.theme-dark .container_c2efea,
+/*Send gift friends popup*/
+.popout_f6639d,
+/*Custom gift message*/
+.customGiftMessage_dcb6d5,
+/*Emojis Scrolling*/
+.scrollerBase_c49869,
+.wrapper_e06857,
+.contentWrapper_af5dbb,
+/*Search gif background*/
+.header_b56bbc,
+.assetWrapper_cb3343,
+.userPopoutOverlayBackground_c69a7b,
+/*Channels and roles background*/
+.theme-dark .container_f1fd9c,
+.theme-dark .header_f1fd9c {
+    background-color: var(--bg-color);
+}
+
+.searchBarComponent_f0963d,
+/*Search commmunities*/
+.searchBox_d83b4d {
+    background-color: var(--bg-color) !important;
+}
+
+/*Embed Message*/
+.embedFull_ad0b71,
+/*Unlock emojis with nitro*/
+.upsellContainer_a3bc57,
+/*Note*/
+.note_c90ad7 textarea:focus,
+.autocompleteAttached_bea0d0,
+/*Message (hover)*/
+.message_d5deea:hover,
+.messageListItem_d5deea:hover,
+/*Spiler Message*/
+.spoilerMarkdownContent_a3d0f7.hidden_a3d0f7,
+.obscuredTextContentInner_a3d0f7 {
+    background: var(--sec-bg-color);
+}
+
+/*Profile Non Premium*/
+.userProfileInnerThemedNonPremium_c69a7b,
+/*Settings inputs*/
+.inputDefault_f8bc55,
+/*Bio text area*/
+.bioTextArea_ccf27d,
+/*Select server in settings*/
+.wrapper_f6639d .select_f6639d,
+/*Select in privacy settings*/
+.lookFilled_f6639d.select_f6639d,
+/*Emoji Description*/
+.inspector_c3120f,
+/*Unicode Shortcut*/
+.unicodeShortcut_dfa278,
+/*Search Gif input*/
+.inner_c18ec9,
+/*Search stickers/emmojis input*/
+.input_effbe2 {
+    background: var(--sec-bg-color) !important;
+}
+
+/*Button*/
+.app_a01fb1 button {
+    background-color: var(--ter-bg-color);
+}
+
+/*Search On Server*/
+.focused_eedf95,
+/*Pin Header*/
+.header_ac90a2,
+/*Pin Background*/
+.messagesPopoutWrap_ac90a2,
+/*Profile Info*/
+.overlayBackground_c69a7,
+/*Shinny buttons like on nitro shop*/
+.lookFilled_dd4f85.colorBrandInverted_dd4f85,
+/**/
+.closeWithCircleBackground_f9a4c9:hover,
+.scrollableContainer_d0696b:hover {
+    background: var(--ter-bg-color) !important;
+}
+
+/*Emoji on top of context menu*/
+.button_a24e84:hover {
+    background-color: var(--fou-bg-color);
+}
+
+/*Scrollbars*/
+::-webkit-scrollbar-thumb,
+.navButtonActive_af5dbb,
+/*Emoji being selected*/
+.emojiItemSelected_fbfedd,
+.assetWrapperMasked_cb3343,
+/*Top buttons in friends page*/
+.themed_a0.selected_a0.item_a0,
+.themed_a0.selected_a0.item_a0:focus,
+.themed_a0.selected_a0.item_a0:hover,
+.focused_d90b3d,
+.item_d90b3d:active,
+.item_d90b3d:focus,
+/*Search Popup*/
+.option_b0286e:hover {
+    background-color: var(--fou-bg-color) !important;
+}
+
+/*Disable Fading*/
+.theme-dark .children_e44302:after,
+/*View new members button*/
+.colorTransparent_dd4f85,
+/*Post footer*/
+.theme-dark .textContentFooter_a57509 {
+    background: transparent !important;
+}
+
+/*New Messages Bar*/
+#---new-messages-bar,
+.unreadPill_fc5f50 {
+    border-color: var(--red-color) !important;
+    color: var(--on-accent-color);
+    background-color: var(--red-color);
+}
+
+/* ========================== Text Colors ============================ */
+/*Profile Link*/
+.markup_d6076c a,
+/*Discord Logo*/
+.childWrapperNoHoverBg_f90abb {
+    color: var(--accent-color);
+}
+
+/*Protip*/
+.pro_dcc874 {
+    color: var(--green-color) !important;
+}
+
+/*This channel doesn't have any pinned messages*/
+.body_ac90a2,
+/*Profile Headers*/
+.defaultColor_e9e35f,
+/*Profile Username*/
+.userTagUsernameBase_c9ccf6,
+/*Stickers Nav*/
+.navButton_af5dbb,
+/*Friends tab top buttons*/
+.tabBar_c2739c .item_c2739c,
+.tabBar_c2739c .item_c2739c:hover {
+    color: var(--text-color);
+}
+
+.addFriend_c2739c:hover,
+.addFriend_c2739c:focus,
+/**/
+.input_f8bc55,
+/*Search communities search icon*/
+.search_f69601 .searchBox_f69601 .searchIcon_f69601 {
+    color: var(--text-color) !important;
+}
+
+/*Search stickers/emojis input*/
+.input_effbe2::placeholder,
+.input_c18ec9::placeholder,
+.item_d90b3d,
+.item_d90b3d:active,
+.item_d90b3d:focus {
+    color: var(--sec-text-color);
+}
+
+/*Tip*/
+.tip_dcc874,
+/*Search Icons*/
+.icon_effbe2,
+/*Profile Description*/
+.text-sm\/normal_dc00ef,
+/*Search or create post placeholder*/
+.collapsed_c1668f .title_c1668f::placeholder,
+.item_d90b3d {
+    color: var(--sec-text-color) !important;
+}
+
+.lookFilled_dd4f85.colorBrand_dd4f85 .layout_e9f61e,
+.colorDefault_d90b3d:active:not(.hideInteraction_d90b3d),
+/*New Post Button*/
+.lookFilled_dd4f85.colorBrand_dd4f85,
+/*Unread Mention Bar*/
+.unread_c10249,
+.emptyChannelIconComponent_c2668b,
+/*Positive Button*/
+.lookFilled_dd4f85.colorGreen_dd4f85,
+.lookFilled_dd4f85.colorRed_dd4f85,
+/*Warning Text*/
+.warning_a2ce87,
+/*Family Center Icons*/
+.icon_d7c696,
+/*App Tag*/
+.botText_a02df3,
+/*Selected tab in discover*/
+.selectedCategoryItem_c72b37 {
+    color: var(--on-accent-color) !important;
+    fill: var(--on-accent-color) !important;
+}
+
+/*Discord Logo*/
+.wrapper_f90abb:hover .childWrapper_f90abb,
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
+/*Mention (hover)*/
+.wrapper_bf1b19:hover {
+    color: var(--on-accent-color);
+}
+
+/*Mention Server*/
+.numberBadge_df8943 {
+    color: var(--on-accent-color) !important;
+}
+
+/*New Messages Bar Triangle Thing*/
+.unreadPillCapStroke_fc5f50 {
+    fill: var(--red-color);
+    color: var(--red-color);
+}
+
+/* ============================ Buttons =========================== */
+/*Role*/
+.role_e4010c,
+.roleNameOverflow_e4010c,
+.topPill_a0 .themed_a0.selected_a0.item_a0 {
+    background-color: var(--fou-bg-color);
+    color: var(--text-color);
+}
+
+/*Primary Buttons*/
+.activeButton_b48941,
+.newMembersNotice_dfba43,
+/*Bot command name*/
+.appLauncherOnboardingCommandName_ec86aa {
+    background-color: var(--accent-color);
+    color: var(--on-accent-color) !important;
+}
+
+/*Secondary Button*/
+.topPill_a0 .themed_a0.item_a0:hover,
+.topPill_a0 .themed_a0.item_a0:focus,
+.jumpToPresentBar_cf58b5 .barBase_cf58b5,
+.barButtonMain_cf58b5 .barButtonBase_cf58b5 {
+    background-color: var(--fou-bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+/*Positive Button*/
+.addFriend_c2739c,
+/*Circle Button, (buttons below server)*/
+.circleIconButton_db6521:hover,
+.circleIconButton_db6521:focus,
+.circleIconButton_db6521:active,
+.selected_db6521 {
+    background-color: var(--green-color) !important;
+    color: var(--on-accent-color) !important;
+}
+
+/* ========================== Code Blocks =========================== */
+
+/*Strings*/
+.hljs-string {
+    color: var(--green-color) !important;
+}
+
+/*Keywords*/
+.hljs-keyword {
+    color: var(--wh-grape) !important;
+}
+
+/*Functions*/
+.function_,
+.hljs-selector-tag,
+.hljs-attribute {
+    color: var(--wh-blueberry) !important;
+}
+
+/*Inner Keywords*/
+.language_ {
+    color: var(--wh-cherry) !important;
+}
+
+/*Classes*/
+.class_ {
+    color: var(--wh-tangerine) !important;
+}
+
+/*CSS Attribute*/
+.hljs-selector-attr {
+    color: var(--text-color) !important;
+}
+
+
+/* ============================= Round Components =============================== */
+/* Fully Round */
+.interactive_f5eb4b,
+/*Members*/
+.memberInner_a31c43,
+/*Channel*/
+.link_d8bfb3,
+/*Profile*/
+.withTagAsButton_b2ca13:hover,
+.withTagless_b2ca13:hover,
+/*Buttons from profile*/
+.button_dd4f85,
+/*Primary Buttons*/
+.lookFilled_dd4f85.colorBrand_dd4f85:disabled,
+.lookFilled_dd4f85.colorBrand_dd4f85,
+.lookFilled_dd4f85.colorPrimary_dd4f85,
+/*Positive Buttons*/
+.lookFilled_dd4f85.colorGreen_dd4f85,
+/*Settings Tabs*/
+.side_a0 .item_a0,
+/*Popup Buttons*/
+.item_d90b3d,
+/*Search Options*/
+.option_b0286e,
+/*Search Server*/
+.result_f14193 {
+    border-radius: 99px !important;
+}
+
+.searchBarComponent_f0963d,
+input {
+    border-radius: 14px !important;
+}
+
+/* =========================================== Borders =================================== */
+/*Gifs Panel*/
+.contentWrapper_af5dbb {
+    border: 2px solid var(--borders-color);
+}
+
+/*Checkbox border*/
+.theme-dark .checkbox_f6cde8,
+/*Most Borders*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+/*Profile popup dividers*/
+.menu_ad5fac div[role=separator] {
+    border-color: var(--borders-color) !important;
+}
+
+.divider_ae36e5,
+.divider_d2b491 {
+    background-color: var(--borders-color) !important;
+}
+
+.scrollerSeparator_d2b491 {
+    box-shadow: none;
+}

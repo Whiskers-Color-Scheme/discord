@@ -1,0 +1,22 @@
+@import url('https://raw.githubusercontent.com/Whiskers-Color-Scheme/discord/main/flat-themes/base.css');
+
+:root{
+    --wh-banana: #A87B0A;
+    --wh-blueberry: #5284BE;
+    --wh-cherry: #B43A2A;
+    --wh-grape: #7D0E70;
+    --wh-kiwi: #6A9534;
+    --wh-tangerine: #C15D01;
+    --wh-neutral: #FFFCF8;
+    --wh-neutral-two: #FFF9F0;
+    --wh-neutral-three: #FFF5E7;
+    --wh-neutral-four: #FFF3E2;
+    --wh-neutral-five: #FFF1DD;
+    --wh-neutral-six: #FFF0DA;
+    --wh-neutral-seven: #FFEFD7;
+    --wh-neutral-eight: #FFECCF;
+    --wh-text: #3E1900;
+    --wh-text-two: #865C3A;
+    --wh-text-three: #A17A5A;
+    --wh-text-four: #AE917C;
+}
