@@ -49,13 +49,16 @@
     --bg-overlay-chat: var(--bg-color);
     --bg-overlay-hover: var(--fou-bg-color);
     --bg-overlay-2: var(--sec-bg-color);
+    --primary-500: var(--bg-color);
     --primary-600: var(--bg-color);
+    --primary-630: var(--sec-bg-color);
     --primary-800: var(--ter-bg-color);
     --background-modifier-selected: var(--fou-bg-color);
     --background-modifier-active: var(--fou-bg-color);
     --background-modifier-hover: var(--fou-bg-color);
     --input-background: var(--bg-color);
     --deprecated-text-input-bg: var(--sec-bg-color);
+    --deprecated-card-bg: var(--sec-bg-color);
     --channeltextarea-background: var(--sec-bg-color);
     --button-secondary-background: var(--fou-bg-color);
     --button-secondary-background-hover: var(--ter-bg-color);
@@ -156,13 +159,21 @@
 .userPopoutOverlayBackground_c69a7b,
 /*Channels and roles background*/
 .theme-dark .container_f1fd9c,
-.theme-dark .header_f1fd9c {
+.theme-dark .header_f1fd9c,
+/*Inbox background*/
+.container_f1c3d9,
+/*Make group background*/
+.container_effbe2,
+/*Emoji selector server bar*/
+.wrapper_ba23fe{
     background-color: var(--bg-color);
 }
 
 .searchBarComponent_f0963d,
 /*Search commmunities*/
-.searchBox_d83b4d {
+.searchBox_d83b4d,
+/*Threads background*/
+.container_e664f3 {
     background-color: var(--bg-color) !important;
 }
 
@@ -178,7 +189,22 @@
 .messageListItem_d5deea:hover,
 /*Spiler Message*/
 .spoilerMarkdownContent_a3d0f7.hidden_a3d0f7,
-.obscuredTextContentInner_a3d0f7 {
+.obscuredTextContentInner_a3d0f7,
+/*Code block in inbox*/
+.markup_d6076c code,
+/*Threads banner*/
+.header_e664f3,
+/*Input sensitivity slider*/
+.inputSensitivityToggle_b6e3f3 .sliderBar_b6e3f3,
+/*Soundboard slider*/
+.theme-dark .bar_c7a159,
+.theme-dark .markDash_c7a159,
+/*Poll result in inbox*/
+.calloutContainer_fd8ff1,
+/*Headers in inbox panel*/
+.channelHeader_f3978e,
+/*Search stickers input*/
+.container_effbe2{
     background: var(--sec-bg-color);
 }
 
@@ -199,7 +225,9 @@
 /*Search Gif input*/
 .inner_c18ec9,
 /*Search stickers/emmojis input*/
-.input_effbe2 {
+.input_effbe2,
+/*Fiend Selected in create group*/
+.friendSelected_ebf869{
     background: var(--sec-bg-color) !important;
 }
 
@@ -243,8 +271,14 @@
 .item_d90b3d:active,
 .item_d90b3d:focus,
 /*Search Popup*/
-.option_b0286e:hover {
+.option_b0286e:hover,
+/*Transaction on billing*/
+.hoverablePayment_a28a08:hover {
     background-color: var(--fou-bg-color) !important;
+}
+
+.numberBadge_df8943 {
+    background-color: var(--accent-color) !important;
 }
 
 /*Disable Fading*/
@@ -252,7 +286,9 @@
 /*View new members button*/
 .colorTransparent_dd4f85,
 /*Post footer*/
-.theme-dark .textContentFooter_a57509 {
+.theme-dark .textContentFooter_a57509,
+/*Divider on the right on billing tab*/
+.scrollerBase_c49869 {
     background: transparent !important;
 }
 
@@ -273,7 +309,9 @@
 }
 
 /*Protip*/
-.pro_dcc874 {
+.pro_dcc874,
+/*Protip in inbox*/
+.protip_b0914a {
     color: var(--green-color) !important;
 }
 
@@ -287,7 +325,16 @@
 .navButton_af5dbb,
 /*Friends tab top buttons*/
 .tabBar_c2739c .item_c2739c,
-.tabBar_c2739c .item_c2739c:hover {
+.tabBar_c2739c .item_c2739c:hover,
+/*Clear sezarch icon*/
+.resultsGroup_b0286e .searchLearnMore_b0286e,
+.resultsGroup_b0286e .searchClearHistory_b0286e,
+/*Thread icon in threads*/
+.threadIcon_e664f3,
+/*Close in icon in threads*/
+.closeIcon_e664f3,
+/*Search icon in threads*/
+.icon_c18ec9 {
     color: var(--text-color);
 }
 
@@ -296,7 +343,22 @@
 /**/
 .input_f8bc55,
 /*Search communities search icon*/
-.search_f69601 .searchBox_f69601 .searchIcon_f69601 {
+.search_f69601 .searchBox_f69601 .searchIcon_f69601,
+/*Inbox title*/
+.defaultColor_a595eb,
+/*Username in inbox*/
+.username_ec86aa,
+/*Mesage text in inbox*/
+.markup_d6076c,
+/*Header in search popup*/
+.resultsGroup_b0286e .header_b0286e,
+/*Search option in search popup*/
+.searchOption_b0286e .filter_b0286e,
+/*Search history*/
+.option_b0286e .filter_b0286e,
+.option_b0286e .answer_b0286e,
+.option_b0286e strong,
+.option_b0286e .nonText_b0286e {
     color: var(--text-color) !important;
 }
 
@@ -305,8 +367,28 @@
 .input_c18ec9::placeholder,
 .item_d90b3d,
 .item_d90b3d:active,
-.item_d90b3d:focus {
+.item_d90b3d:focus,
+/*Header colors in inbox*/
+.themed_a0.item_a0,
+.brand_a0.item_a0{
     color: var(--sec-text-color);
+}
+
+input::placeholder,
+/*Secondary text in inbox*/
+.text-xs\/normal_dc00ef,
+/*Replied messages in inbox*/
+.repliedMessage_ec86aa,
+/*Subtext in all messages on notifications popup*/
+.colorDefault_d90b3d .subtext_d90b3d,
+/*Timestamp in inbox*/
+.timestamp_ec86aa,
+/*Search option answer*/
+.searchOption_b0286e .answer_b0286e,
+/*Secondary text in */
+.text-md\/normal_dc00ef,
+.text-xs\/medium_dc00ef {
+    color: var(--sec-text-color) !important;
 }
 
 /*Tip*/
@@ -338,7 +420,13 @@
 /*App Tag*/
 .botText_a02df3,
 /*Selected tab in discover*/
-.selectedCategoryItem_c72b37 {
+.selectedCategoryItem_c72b37,
+/*Sound icon when a channel has a active voice chat*/
+.icon_df8943,
+/*Invalid Tag*/
+.invalidIndicator_ede133,
+/*Failed Tag*/
+.statusTag_a28a08 {
     color: var(--on-accent-color) !important;
     fill: var(--on-accent-color) !important;
 }
@@ -347,7 +435,9 @@
 .wrapper_f90abb:hover .childWrapper_f90abb,
 .wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
 /*Mention (hover)*/
-.wrapper_bf1b19:hover {
+.wrapper_bf1b19:hover,
+/*Beta Tags*/
+.base_df8943 {
     color: var(--on-accent-color);
 }
 
@@ -363,15 +453,9 @@
 }
 
 /* ============================ Buttons =========================== */
-/*Role*/
-.role_e4010c,
-.roleNameOverflow_e4010c,
-.topPill_a0 .themed_a0.selected_a0.item_a0 {
-    background-color: var(--fou-bg-color);
-    color: var(--text-color);
-}
 
-/*Primary Buttons*/
+
+/* ======== Primary Buttons ===========*/
 .activeButton_b48941,
 .newMembersNotice_dfba43,
 /*Bot command name*/
@@ -380,16 +464,35 @@
     color: var(--on-accent-color) !important;
 }
 
-/*Secondary Button*/
+/* ======== Secondary Buttons ===========*/
+/*Role*/
+.role_e4010c,
+.roleNameOverflow_e4010c,
+.topPill_a0 .themed_a0.selected_a0.item_a0 {
+    background-color: var(--fou-bg-color);
+    color: var(--text-color);
+}
+
 .topPill_a0 .themed_a0.item_a0:hover,
 .topPill_a0 .themed_a0.item_a0:focus,
 .jumpToPresentBar_cf58b5 .barBase_cf58b5,
-.barButtonMain_cf58b5 .barButtonBase_cf58b5 {
+.barButtonMain_cf58b5 .barButtonBase_cf58b5,
+/*Buttons in input header*/
+.tertiary_e258f5,
+.secondary_e258f5,
+/*Friends request button in */
+.friendRequestsButton_c0c071,
+/*Jump button in inbox*/
+.jumpButton_ac3dc2,
+/*Load more messages in inbox*/
+.lookFilled_dd4f85.colorPrimary_dd4f85,
+/*Nitro tab in settings*/
+.selectedBackground_ae3c77 {
     background-color: var(--fou-bg-color) !important;
     color: var(--text-color) !important;
 }
 
-/*Positive Button*/
+/* ======== Positive Buttons ===========*/
 .addFriend_c2739c,
 /*Circle Button, (buttons below server)*/
 .circleIconButton_db6521:hover,
@@ -460,7 +563,9 @@
 /*Search Options*/
 .option_b0286e,
 /*Search Server*/
-.result_f14193 {
+.result_f14193,
+/*Nitro tab in settings*/
+.selectedBackground_ae3c77 {
     border-radius: 99px !important;
 }
 
@@ -473,6 +578,21 @@ input {
 /*Gifs Panel*/
 .contentWrapper_af5dbb {
     border: 2px solid var(--borders-color);
+}
+
+/*Inbox Popup*/
+.recentMentionsPopout_ddb5b4,
+/*Pinned messages popup*/
+.messagesPopoutWrap_ac90a2,
+/*Channel notifications popup*/
+.flexible_d90b3d,
+/*Threads popup*/
+.container_e664f3,
+/*Search popup*/
+.container_eedf95,
+/*Create group popup*/
+.popout_e6af9c  {
+    border: 2px solid var(--borders-color) !important;
 }
 
 /*Checkbox border*/
@@ -545,4 +665,9 @@ td,
 
 .scrollerSeparator_d2b491 {
     box-shadow: none;
+}
+
+/*Selected Tab in settings*/
+.top_a0 .brand_a0.selected_a0.item_a0 {
+    border-color: var(--accent-color) !important;
 }
