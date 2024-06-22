@@ -132,8 +132,6 @@
 }
 
 /*=========================== Background Colors ======================= */
-/*Profile panel in dm*/
-.userPanelInnerThemed_c69a7b,
 /*Pinned messages footer*/
 .footer_ac90a2,
 /*Emoji on top of context menu*/
@@ -169,6 +167,11 @@
 /*Emoji selector server bar*/
 .wrapper_ba23fe{
     background-color: var(--bg-color);
+}
+
+/*Profile panel in dm*/
+.userPanelInnerThemed_c69a7b{
+    background: var(--bg-color) !important;
 }
 
 .searchBarComponent_f0963d,
